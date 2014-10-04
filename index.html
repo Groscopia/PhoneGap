@@ -1,9 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Groscopia</title>
+    <meta charset="utf-8">
+    <title>Tutorial: Hello Dojo!</title>
 </head>
 <body>
-    <script src="./dojo-release-1.10.1/dojo/dojo.js" data-dojo-config="async: true"></script>
+    <h1 id="greeting">Hello</h1>
+    <!-- load Dojo -->
+    <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.10.1/dojo/dojo.js"
+            data-dojo-config="async: true"></script>
+ 
     <script>
         require([
             'dojo/dom',
@@ -13,7 +19,5 @@
             domConstruct.place('<i> Dojo!</i>', greetingNode);
         });
     </script>
-    Hello Worldd!
-
 </body>
 </html>
